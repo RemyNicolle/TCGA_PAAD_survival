@@ -3,7 +3,9 @@
 
 A web application for the survival analysis of gene expression in the curated TCGA pancreatic adenocarcinoma dataset.
 
-The app runs online at this adresse: http://cit-apps.ligue-cancer.net/pancreatic_cancer
+The app runs __online__ at this adresse: 
+
+__http://cit-apps.ligue-cancer.net/pancreatic_cancer/pdac.survival__
 
 
 Alternatively, the app can be used locally by following these steps:
