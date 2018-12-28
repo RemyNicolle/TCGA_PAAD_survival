@@ -10,15 +10,9 @@ ADKS=gsub("-","_",TCGAsampleTable$Tumor.Sample.ID)
 PFSraw=read.delim("PFS.txt",header=T,as.is=T,sep="\t",dec=",")
 rownames(PFSraw)=gsub("-","_",paste0(toupper(PFSraw$patient_barcode),"-01A"))
 
-# load("tcgaOS.RData")
-# load("tcgaPFS.RData")
 
 library(survival)
-# library(ggpubr)
-# library(ggsci)
-# library("survminer")
-# library("survival")
-# library("GGally")
+
 
 
 
@@ -185,7 +179,7 @@ shinyServer(function(input, output) {
 
 	},colnames=F)
 
-	# output$table <-  renderDataTable()
+
 
 
 
