@@ -29,13 +29,13 @@ This application requires to have R installed along with two packages (beeswarm 
 To quickly launch the application, open __R__ and type in these two lines:
 ```R
 library(shiny)
-runGitHub("TCGA_PAAD_survival", "RemyNicolle")
+runGitHub("TCGA_PAAD_survival", "cit-bioinfo")
 # this will take some time as all necessary data will be downloaded
 ```
 This will download the application in a _temporary_ folder along with the necessary data and launch it.
 
 #### Installing the app on your computer
-To keep the application for later use (and not redownload everything at each use), download the entire app using this [link](https://github.com/RemyNicolle/TCGA_PAAD_survival/tarball/master) and in __R__, first load the shiny library.
+To keep the application for later use (and not redownload everything at each use), download the entire app using this [link](https://github.com/cit-bioinfo/TCGA_PAAD_survival/tarball/master) and in __R__, first load the shiny library.
 ```R
 library(shiny)
 ```
